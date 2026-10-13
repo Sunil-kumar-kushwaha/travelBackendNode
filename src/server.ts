@@ -1,3 +1,4 @@
+import "dotenv/config";
 import dotenv from "dotenv";
 dotenv.config();
 import app from "./app";
@@ -28,7 +29,7 @@ const startServer = async () => {
             logger.info(`[PID ${process.pid}] HTTP server closed.`);
             process.exit(0);
         });
-        // Force exit if not closed within 10s
+        
         setTimeout(() => process.exit(1), 10000).unref();
     };
 

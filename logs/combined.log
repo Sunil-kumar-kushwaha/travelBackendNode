@@ -133,3 +133,11 @@
 2026-10-12T11:49:27.165Z [INFO] [PID 72416]  server listening on port 5050
 2026-10-12T15:13:20.925Z [INFO] OTP SMS sent successfully to +919129927862
 2026-10-12T15:32:17.217Z [INFO] [PID 72416] Received SIGINT. Shutting down gracefully...
+2026-10-13T09:41:06.457Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-13T09:41:06.486Z [INFO] [PID 82022]  server listening on port 5050
+2026-10-13T09:43:22.932Z [INFO] [PID 82022] Received SIGINT. Shutting down gracefully...
+2026-10-13T09:43:36.513Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-13T09:43:36.535Z [INFO] [PID 82095]  server listening on port 5050
+2026-10-13T10:23:04.306Z [INFO] OTP SMS sent successfully to +919129927862
+2026-10-13T15:57:33.093Z [INFO] OTP SMS sent successfully to +919129927862
+2026-10-13T18:11:29.142Z [INFO] [PID 82095] Received SIGINT. Shutting down gracefully...
