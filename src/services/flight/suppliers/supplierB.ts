@@ -23,6 +23,7 @@ async function fetchRaw(query: SupplierBQuery) {
             depart: `${query.departureDate}T17:55:00`,
             arrive: `${query.departureDate}T23:45:00`,
             layovers: 1,
+            stops : 1,
             fare: 5950, // cheaper than Supplier A's 6091 for the identical flight
             seatsLeft: 6,
             cabin: "Economy",
@@ -36,6 +37,7 @@ async function fetchRaw(query: SupplierBQuery) {
             depart: `${query.departureDate}T06:20:00`,
             arrive: `${query.departureDate}T08:45:00`,
             layovers: 0,
+            stops: 1,
             fare: 8218,
             seatsLeft: 2,
             cabin: "Economy",

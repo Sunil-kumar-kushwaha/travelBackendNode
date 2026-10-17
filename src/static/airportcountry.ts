@@ -1,6 +1,14 @@
 export const airportCountryData = {
     "apts": [
         {
+            "code": "HYD",
+            "name": "Hyderabad, Hyderabad",
+            "country": "India",
+            "city": "Hyderabad",
+            "countryCode" : "in"
+
+        },
+        {
             "code": "BOM",
             "name": "Mumbai,Mumbai",
             "country": "India",

@@ -8,3 +8,122 @@
 2026-08-23T17:23:35.762Z [ERROR] The number +91979895XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91979895XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
 2026-08-23T17:24:40.157Z [ERROR] Failed to send OTP SMS The number +91979895XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91979895XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
 2026-08-23T17:24:40.158Z [ERROR] The number +91979895XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91979895XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2026-10-15T19:58:03.647Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:03.922Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:04.152Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:04.511Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:06.201Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:08.044Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:11.499Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:16.694Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:21.870Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:27.177Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:37.497Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:42.603Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:48.061Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:58:53.143Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:58:58.323Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:03.418Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:08.519Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:13.535Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:18.616Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:23.735Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:28.876Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:34.095Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:39.145Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:44.245Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:49.284Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:54.446Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:59.490Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:00:04.672Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:00:09.905Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:15.075Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:20.199Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:25.469Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:30.589Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:40.931Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:46.645Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:00:51.780Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:00:56.952Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:02.040Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:07.170Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:12.186Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:17.383Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:24.338Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:24.494Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:24.694Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:25.029Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:25.617Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:26.552Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:28.176Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:31.499Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:36.529Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:41.560Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:46.606Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:51.771Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:56.869Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:02:02.019Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:54.301Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:54.492Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:54.628Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:54.887Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:55.462Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:56.410Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:58.212Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:12:01.584Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T14:41:56.487Z [ERROR] Redis error: read ETIMEDOUT
+2026-10-17T14:49:40.802Z [ERROR] Redis error: read ETIMEDOUT
+2026-10-17T18:01:21.509Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:21.767Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:22.008Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:22.542Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:23.196Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:24.159Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:26.013Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:29.313Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:34.412Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:39.577Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:44.653Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:49.851Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:55.058Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:02:00.140Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:02:05.306Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:02:10.355Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T19:25:15.859Z [ERROR] Failed to send OTP SMS getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T19:25:15.891Z [ERROR] getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:08:26.018Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:26.242Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:26.516Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:26.904Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:27.422Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:28.418Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:30.194Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:33.497Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:38.583Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:43.721Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:48.769Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:55.519Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:55.592Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:55.699Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:56.055Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:56.517Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:57.346Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:59.114Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:02.476Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:07.615Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:12.726Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:17.757Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:22.849Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:28.053Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:33.180Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:39.428Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:39.621Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:39.760Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:11:35.943Z [ERROR] Failed to send OTP SMS getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:11:35.944Z [ERROR] getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:27:39.427Z [ERROR] Failed to send OTP SMS The number +91876532XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91876532XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2026-10-17T20:27:39.427Z [ERROR] The number +91876532XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91876532XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2026-10-17T20:31:53.562Z [ERROR] Failed to send OTP SMS getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:31:53.565Z [ERROR] getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:32:32.904Z [ERROR] Failed to send OTP SMS getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:32:32.905Z [ERROR] getaddrinfo ENOTFOUND api.twilio.com

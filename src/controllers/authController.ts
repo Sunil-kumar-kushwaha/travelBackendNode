@@ -1,4 +1,3 @@
-// controllers/authController.ts
 
 import { Request, Response } from "express";
 import { OAuth2Client } from "google-auth-library";
@@ -37,6 +36,7 @@ export async function sendOtp(req: Request, res: Response): Promise<void> {
 
     try {
         const otp = otpService.createOtp(phone);
+        console.log("Current Otp", otp);
         await sendOtpSms(phone, otp);
         res.status(200).json({ success: true, message: "OTP sent successfully" });
     } catch (err) {
@@ -56,7 +56,7 @@ export async function verifyOtp(req: Request, res: Response): Promise<void> {
     try {
         otpService.verifyOtp(phone, String(otp));
 
-        const user = userService.findOrCreateByPhone(phone);
+        const user = await userService.findOrCreateByPhone(phone);
         const authToken = signToken({ userId: user.id, phone });
 
         res.status(200).json({ success: true, userId: user.id, authToken });
@@ -90,7 +90,7 @@ export async function googleLogin(req: Request, res: Response): Promise<void> {
             return;
         }
 
-        const user = userService.findOrCreateByEmail(payload.email, {
+        const user = await userService.findOrCreateByEmail(payload.email, {
             name: payload.name,
             picture: payload.picture,
         });

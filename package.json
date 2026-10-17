@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "seed:flights": "ts-node src/scripts/seedFlights.ts"
   },
   "keywords": [],
   "author": "",
@@ -35,7 +36,7 @@
     "install": "^0.13.0",
     "jsonwebtoken": "^9.0.3",
     "npm": "^11.19.0",
-    "tsx": "^4.23.5",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }

@@ -1,7 +1,4 @@
-// ============================================================
-// BACKEND FILE  (Node.js / Express)
-// Project path: travelBackend/src/types/booking.types.ts
-// ============================================================
+
 
 export interface SelectedFlight {
     id: string;

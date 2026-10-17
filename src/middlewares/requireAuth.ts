@@ -7,7 +7,7 @@ import { verifyToken } from "../utils/token";
 import { isTokenBlacklisted } from "../services/tokenBlacklistService";
 
 export default async function requireAuth(req: Request, res: Response, next: NextFunction): Promise<void> {
-    const token = req.headers["myweb-user-token"] as string | undefined;
+    const token = req.headers["tkd-user-token"] as string | undefined;
 
     if (!token) {
         res.status(401).json({ success: false, message: "Not logged in" });

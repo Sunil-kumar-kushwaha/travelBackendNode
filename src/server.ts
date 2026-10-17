@@ -4,7 +4,7 @@ dotenv.config();
 import app from "./app";
 require('dotenv').config();
 // const app = require('./app');
-// const connectDB = require('./src/config/db');
+import { connectDB, disconnectDB } from "./config/db"; // src/config/db
 // const redisClient = require('./src/config/redis');
 // const { registerExpiryScheduler } = require('./src/jobs/expiryScheduler');
 import logger from "./utils/logger";
@@ -14,7 +14,7 @@ import logger from "./utils/logger";
 
 const PORT = process.env.PORT || 5050;
 const startServer = async () => {
-    // await connectDB();
+    await connectDB();
 
     
 
@@ -23,9 +23,10 @@ const startServer = async () => {
     });
 
     // --- Graceful shutdown ---
-    const shutdown = (signal: any) => {
+    const shutdown = async (signal: any) => {
         logger.info(`[PID ${process.pid}] Received ${signal}. Shutting down gracefully...`);
-        server.close(() => {
+        server.close(async () => {
+            await disconnectDB();
             logger.info(`[PID ${process.pid}] HTTP server closed.`);
             process.exit(0);
         });
