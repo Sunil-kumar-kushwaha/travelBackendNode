@@ -10,12 +10,14 @@ export interface IFlight extends Document {
     arrivalTime: Date;
     duration: string;
     price: number;
+    stops: number;
     availableSeats: number;
     cabinClass: "Economy" | "Premium Economy" | "Business" | "First";
     isActive: boolean;
     createdAt: Date;
     updatedAt: Date;
 }
+
 
 const flightSchema = new Schema<IFlight>(
     {
@@ -28,7 +30,6 @@ const flightSchema = new Schema<IFlight>(
         flightNumber: {
             type: String,
             required: true,
-            unique: true,
             trim: true,
         },
         airline: {
@@ -63,6 +64,11 @@ const flightSchema = new Schema<IFlight>(
             required: true,
             min: 0,
         },
+        stops: { 
+            type: Number, 
+            default: 0, 
+            min: 0 
+        },
         availableSeats: {
             type: Number,
             required: true,
@@ -88,6 +94,6 @@ flightSchema.index({ source: 1, destination: 1, departureTime: 1 });
 flightSchema.index({ airline: 1 });
 flightSchema.index({ price: 1 });
 
-const Flight = model<IFlight>("Flight", flightSchema);
+const Flight = model<IFlight>("Flight", flightSchema, "Flight"); 
 
 export default Flight;

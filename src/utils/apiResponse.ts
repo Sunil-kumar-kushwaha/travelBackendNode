@@ -6,11 +6,7 @@ class ApiResponse<T = unknown> {
     public message: string;
     public data: T;
 
-    constructor(
-        statusCode: number,
-        data: T,
-        message: string = "Success"
-    ) {
+    constructor( statusCode: number, data: T, message: string = "Success" ) {
         this.statusCode = statusCode;
         this.success = statusCode < 400;
         this.message = message;

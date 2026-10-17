@@ -1,29 +1,55 @@
 
 
 import Flight from "../../models/Flight";
-// import redisClient from "../config/redis";
+import AirportList from "../../models/AirportList";
+
+import redisClient from "../../config/redis";
 import { CITIES } from "../../utils/dummyData";
 import { airportCountryData } from "../../static/airportcountry";
+import logger from "../../utils/logger";
 import { searchExternalSuppliers } from "./suppliers";
 import { consolidateFlights, buildSearchMeta, ConsolidatableFlight } from "../../utils/consolidateFlights";
 
 const SEARCH_CACHE_TTL = 120;
-const INTERNAL_FETCH_CAP = 200; // safety cap — see trade-off note above
+const INTERNAL_FETCH_CAP = 200; 
+
+const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
 
 export const AutoCompleteAirportService = async ({ countryCode }: { countryCode: string }) => {
     const search = countryCode.trim().toLowerCase();
-
     if (!search) {
         return [];
     }
-    return airportCountryData.apts
-        .filter((airport) => {
-            const code = airport.code?.toLowerCase() || "";
-            const city = airport.city?.toLowerCase() || "";
-            const name = airport.name?.toLowerCase() || "";
-            return code.includes(search) || city.includes(search) || name.includes(search);
-        })
-        .slice(0, 10);
+
+    const safe = escapeRegex(search);
+    const rx = new RegExp(safe, "i");
+    // return AirportList.find({ $or: [{ code: rx }, { city: rx }, { name: rx }, { country: rx }] })
+    //     .select("-_id code name country city countryCode")
+    //     .limit(5)
+    //     .lean();
+
+    return AirportList.aggregate([
+        { $unwind: "$apts" },                                  
+        { $replaceRoot: { newRoot: "$apts" } },                
+        { $match: { $or: [{ code: rx }, { city: rx }, { name: rx }, { country: rx }] } },
+        {
+            $addFields: {                                      
+                _rank: {
+                    $switch: {
+                        branches: [
+                            { case: { $eq: [{ $toLower: "$code" }, search] }, then: 0 },
+                            { case: { $regexMatch: { input: "$city", regex: `^${safe}`, options: "i" } }, then: 1 },
+                        ],
+                        default: 2,
+                    },
+                },
+            },
+        },
+        { $sort: { _rank: 1, city: 1 } },
+        { $limit: 5 },
+        { $project: { _rank: 0, _id: 0 } },
+    ]);
 };
 
 export const flightService = async ({
@@ -43,13 +69,17 @@ export const flightService = async ({
 }) => {
     const pageNum = Number(page) || 1;
     const limitNum = Number(limit) || 15;
+    if (!redisClient) {
+        logger.warn("Redis is not configured");
+        return;
+    }
 
     const cacheKey = `flight-search:${source || "ALL"}:${destination || "ALL"}:${departureDate || ""}:${passengers}:${pageNum}:${limitNum}`;
 
-    // const cached = await redisClient.get(cacheKey);
-    // if (cached) {
-    //   return JSON.parse(cached);
-    // }
+    const cached = await redisClient.get(cacheKey);
+    if (cached) {
+      return JSON.parse(cached);
+    }
 
     const filter: any = { isActive: true };
 
@@ -70,155 +100,14 @@ export const flightService = async ({
     // here, since consolidation must run on the full matching set first.
 
 
+    // const dbFlights = await Flight.find(filter).limit(INTERNAL_FETCH_CAP).lean();
 
-    // const [dbFlights, supplierFlights] = await Promise.all([
-    //     Flight.find(filter).limit(INTERNAL_FETCH_CAP).lean(),
-    //     searchExternalSuppliers({ source, destination, departureDate }),
-    // ]);
+    const [dbFlights, supplierFlights] = await Promise.all([
+        Flight.find(filter).limit(INTERNAL_FETCH_CAP).lean(),
+        searchExternalSuppliers({ source, destination, departureDate }),
+    ]);
 
-    const dbFlights = [
-        {
-            flightId: "FL001",
-            flightNumber: "6E-201",
-            airline: "IndiGo",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T06:00:00"),
-            arrivalTime: new Date("2026-09-26T08:45:00"),
-            duration: "2h 45m",
-            price: 4899,
-            availableSeats: 32,
-            cabinClass: "Economy",
-            isActive: true,
-        },
-        {
-            flightId: "FL002",
-            flightNumber: "AI-501",
-            airline: "Air India",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T07:30:00"),
-            arrivalTime: new Date("2026-09-26T10:20:00"),
-            duration: "2h 50m",
-            price: 5299,
-            availableSeats: 24,
-            cabinClass: "Economy",
-            isActive: true,
-        },
-        {
-            flightId: "FL003",
-            flightNumber: "UK-811",
-            airline: "Vistara",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T09:00:00"),
-            arrivalTime: new Date("2026-09-26T11:45:00"),
-            duration: "2h 45m",
-            price: 6499,
-            availableSeats: 18,
-            cabinClass: "Premium Economy",
-            isActive: true,
-        },
-        {
-            flightId: "FL004",
-            flightNumber: "6E-215",
-            airline: "IndiGo",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T10:30:00"),
-            arrivalTime: new Date("2026-09-26T13:15:00"),
-            duration: "2h 45m",
-            price: 4599,
-            availableSeats: 41,
-            cabinClass: "Economy",
-            isActive: true,
-        },
-        {
-            flightId: "FL005",
-            flightNumber: "AI-803",
-            airline: "Air India",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T12:00:00"),
-            arrivalTime: new Date("2026-09-26T14:50:00"),
-            duration: "2h 50m",
-            price: 5799,
-            availableSeats: 27,
-            cabinClass: "Economy",
-            isActive: true,
-        },
-        {
-            flightId: "FL006",
-            flightNumber: "QP-142",
-            airline: "Akasa Air",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T14:30:00"),
-            arrivalTime: new Date("2026-09-26T17:20:00"),
-            duration: "2h 50m",
-            price: 4299,
-            availableSeats: 36,
-            cabinClass: "Economy",
-            isActive: true,
-        },
-        {
-            flightId: "FL007",
-            flightNumber: "6E-229",
-            airline: "IndiGo",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T16:00:00"),
-            arrivalTime: new Date("2026-09-26T18:40:00"),
-            duration: "2h 40m",
-            price: 4999,
-            availableSeats: 29,
-            cabinClass: "Economy",
-            isActive: true,
-        },
-        {
-            flightId: "FL008",
-            flightNumber: "IX-112",
-            airline: "Air India Express",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T18:30:00"),
-            arrivalTime: new Date("2026-09-26T21:20:00"),
-            duration: "2h 50m",
-            price: 3899,
-            availableSeats: 45,
-            cabinClass: "Economy",
-            isActive: true,
-        },
-        {
-            flightId: "FL009",
-            flightNumber: "AI-505",
-            airline: "Air India",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T20:00:00"),
-            arrivalTime: new Date("2026-09-26T22:50:00"),
-            duration: "2h 50m",
-            price: 6999,
-            availableSeats: 12,
-            cabinClass: "Business",
-            isActive: true,
-        },
-        {
-            flightId: "FL010",
-            flightNumber: "6E-241",
-            airline: "IndiGo",
-            source: "DEL",
-            destination: "BLR",
-            departureTime: new Date("2026-09-26T22:00:00"),
-            arrivalTime: new Date("2026-09-27T00:40:00"),
-            duration: "2h 40m",
-            price: 5199,
-            availableSeats: 22,
-            cabinClass: "Economy",
-            isActive: true,
-        },
-    ];
-
+    
     // const supplierFlights = await searchExternalSuppliers({
     //     source,
     //     destination,
@@ -237,13 +126,13 @@ export const flightService = async ({
         price: flight.price,
         availableSeats: flight.availableSeats,
         cabinClass: flight.cabinClass,
-        stops: flight.stops ?? 0, // your Flight model may not have this field yet — defaults to non-stop
+        stops: flight.stops ?? 0, 
         supplier: "internal",
-        fareKey: flight.flightId, // booking an internal flight uses its own flightId
+        fareKey: flight.flightId, 
     }));
 
-    // const merged = [...normalizedDbFlights, ...supplierFlights];
-    const merged = [...normalizedDbFlights];
+    const merged = [...normalizedDbFlights, ...supplierFlights];
+    // const merged = [...normalizedDbFlights];
 
     const consolidated = consolidateFlights(merged);
     consolidated.sort((a, b) => a.price - b.price);
@@ -268,7 +157,7 @@ export const flightService = async ({
         cabinClass: flight.cabinClass,
         stops: flight.stops,
         supplier: flight.supplier,
-        fareKey: flight.fareKey, // needed downstream at booking time
+        fareKey: flight.fareKey, 
     }));
 
     const response = {
@@ -281,15 +170,15 @@ export const flightService = async ({
         page: pageNum,
         limit: limitNum,
         flights: results,
-        meta, // for the filter sidebar — built from the FULL consolidated set, not just this page
+        meta, 
     };
 
-    // await redisClient.set(
-    //   cacheKey,
-    //   JSON.stringify(response),
-    //   "EX",
-    //   SEARCH_CACHE_TTL
-    // );
+    await redisClient.set(
+      cacheKey,
+      JSON.stringify(response),
+      "EX",
+      SEARCH_CACHE_TTL
+    );
 
     return response;
 };

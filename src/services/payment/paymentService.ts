@@ -20,7 +20,7 @@ interface ProcessPaymentInput {
 }
 
 export async function processPayment({ bookingId, method, amount, details }: ProcessPaymentInput) {
-    const booking = getBooking(bookingId); // throws 404 if missing
+    const booking = await getBooking(bookingId); // throws 404 if missing
 
     if (booking.status === "paid") {
         throw new ApiError(400, "This booking has already been paid for");
@@ -34,7 +34,7 @@ export async function processPayment({ bookingId, method, amount, details }: Pro
     }
 
     const paymentRef = `PAY-${Date.now()}-${crypto.randomBytes(3).toString("hex").toUpperCase()}`;
-    const updated = markBookingPaid(bookingId, paymentRef);
+    const updated = await markBookingPaid(bookingId, paymentRef);
 
     return { success: true, paymentRef, bookingId: updated.id, amountCharged: amount, method };
 }

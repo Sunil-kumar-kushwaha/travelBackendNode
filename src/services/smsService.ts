@@ -27,7 +27,7 @@ export async function sendOtpSms(
         );
 
         await twilio.messages.create({
-            body: `Your  login OTP is ${otp}. It expires in 5 minutes. love from sunil to babita`,
+            body: `Your login OTP is ${otp}. It expires in 5 minutes.`,
             from: process.env.TWILIO_FROM_NUMBER,
             to: phone,
         });
@@ -40,7 +40,6 @@ export async function sendOtpSms(
         };
     } catch (error) {
         logger.error("Failed to send OTP SMS", error);
-
         throw error;
     }
 }

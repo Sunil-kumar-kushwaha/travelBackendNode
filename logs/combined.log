@@ -141,3 +141,386 @@
 2026-10-13T10:23:04.306Z [INFO] OTP SMS sent successfully to +919129927862
 2026-10-13T15:57:33.093Z [INFO] OTP SMS sent successfully to +919129927862
 2026-10-13T18:11:29.142Z [INFO] [PID 82095] Received SIGINT. Shutting down gracefully...
+2026-10-14T05:30:03.275Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-14T05:30:03.297Z [INFO] [PID 24720]  server listening on port 5050
+2026-10-15T19:00:35.148Z [INFO] [PID 24720] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:00:36.487Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:00:36.514Z [INFO] [PID 54382]  server listening on port 5050
+2026-10-15T19:02:34.136Z [INFO] [PID 54382] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:02:35.317Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:02:35.350Z [INFO] [PID 55356]  server listening on port 5050
+2026-10-15T19:02:45.608Z [INFO] [PID 55356] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:02:46.367Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:02:46.386Z [INFO] [PID 55466]  server listening on port 5050
+2026-10-15T19:02:51.202Z [INFO] [PID 55466] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:02:51.978Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:02:51.999Z [INFO] [PID 55516]  server listening on port 5050
+2026-10-15T19:26:18.350Z [INFO] [PID 55516] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:26:19.445Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:26:19.476Z [INFO] [PID 67162]  server listening on port 5050
+2026-10-15T19:28:51.555Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:28:51.576Z [INFO] [PID 68858]  server listening on port 5050
+2026-10-15T19:32:09.387Z [INFO] [PID 68858] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:32:10.441Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:32:10.466Z [INFO] [PID 70506]  server listening on port 5050
+2026-10-15T19:32:41.220Z [INFO] [PID 70506] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:32:42.169Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:32:42.192Z [INFO] [PID 70786]  server listening on port 5050
+2026-10-15T19:32:56.852Z [INFO] [PID 70786] Received SIGINT. Shutting down gracefully...
+2026-10-15T19:33:08.916Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:33:08.935Z [INFO] [PID 71217]  server listening on port 5050
+2026-10-15T19:35:41.582Z [INFO] [PID 71217] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:35:42.522Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:35:42.545Z [INFO] [PID 72492]  server listening on port 5050
+2026-10-15T19:36:07.829Z [INFO] [PID 72492] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:36:15.323Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:36:15.381Z [INFO] [PID 72784]  server listening on port 5050
+2026-10-15T19:36:31.524Z [INFO] [PID 72784] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:36:32.174Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:36:32.199Z [INFO] [PID 72921]  server listening on port 5050
+2026-10-15T19:38:03.104Z [INFO] [PID 72921] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:38:04.041Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:38:04.064Z [INFO] [PID 73760]  server listening on port 5050
+2026-10-15T19:38:09.085Z [INFO] [PID 73760] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:38:09.713Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:38:09.732Z [INFO] [PID 73818]  server listening on port 5050
+2026-10-15T19:43:09.520Z [INFO] [PID 73818] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:43:10.359Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:43:10.386Z [INFO] [PID 76301]  server listening on port 5050
+2026-10-15T19:44:13.595Z [INFO] [PID 76301] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:44:14.199Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:44:14.394Z [INFO] [PID 76846]  server listening on port 5050
+2026-10-15T19:44:50.903Z [INFO] [PID 76846] Received SIGTERM. Shutting down gracefully...
+2026-10-15T19:44:51.380Z [WARN] REDIS_URL not set — token blacklist (logout invalidation) is disabled. Logout will still clear client cookies, but old tokens stay valid until they expire.
+2026-10-15T19:44:51.555Z [INFO] [PID 77164]  server listening on port 5050
+2026-10-15T19:58:03.331Z [INFO] [PID 84002]  server listening on port 5050
+2026-10-15T19:58:03.621Z [INFO] Redis connected
+2026-10-15T19:58:03.647Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:03.894Z [INFO] Redis connected
+2026-10-15T19:58:03.922Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:04.128Z [INFO] Redis connected
+2026-10-15T19:58:04.152Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:04.485Z [INFO] Redis connected
+2026-10-15T19:58:04.511Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:05.149Z [INFO] Redis connected
+2026-10-15T19:58:06.179Z [INFO] Redis connected
+2026-10-15T19:58:06.201Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:08.020Z [INFO] Redis connected
+2026-10-15T19:58:08.044Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:11.462Z [INFO] Redis connected
+2026-10-15T19:58:11.499Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:16.668Z [INFO] Redis connected
+2026-10-15T19:58:16.694Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:21.844Z [INFO] Redis connected
+2026-10-15T19:58:21.870Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:27.152Z [INFO] Redis connected
+2026-10-15T19:58:27.177Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:32.224Z [INFO] Redis connected
+2026-10-15T19:58:37.470Z [INFO] Redis connected
+2026-10-15T19:58:37.497Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:42.575Z [INFO] Redis connected
+2026-10-15T19:58:42.603Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T19:58:48.061Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:58:53.143Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:58:58.323Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:03.418Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:08.519Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:13.535Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:18.616Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:23.735Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:28.876Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:34.095Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:39.145Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:44.245Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:49.284Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:54.446Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T19:59:59.490Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:00:04.672Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:00:09.878Z [INFO] Redis connected
+2026-10-15T20:00:09.905Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:15.046Z [INFO] Redis connected
+2026-10-15T20:00:15.075Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:20.175Z [INFO] Redis connected
+2026-10-15T20:00:20.199Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:25.446Z [INFO] Redis connected
+2026-10-15T20:00:25.469Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:30.531Z [INFO] Redis connected
+2026-10-15T20:00:30.589Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:35.650Z [INFO] Redis connected
+2026-10-15T20:00:40.866Z [INFO] Redis connected
+2026-10-15T20:00:40.931Z [ERROR] Redis error: read ECONNRESET
+2026-10-15T20:00:46.645Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:00:51.780Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:00:56.952Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:02.040Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:07.170Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:12.186Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:17.383Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:21.056Z [INFO] [PID 84002] Received SIGINT. Shutting down gracefully...
+2026-10-15T20:01:24.324Z [INFO] [PID 85845]  server listening on port 5050
+2026-10-15T20:01:24.338Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:24.494Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:24.694Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:25.029Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:25.617Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:26.552Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:28.176Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:31.499Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:36.529Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:41.560Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:46.606Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:51.771Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:01:56.869Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:02:02.019Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:02:07.145Z [INFO] Redis connected
+2026-10-15T20:03:02.814Z [INFO] [PID 85845] Received SIGINT. Shutting down gracefully...
+2026-10-15T20:03:09.544Z [INFO] [PID 86827]  server listening on port 5050
+2026-10-15T20:03:09.772Z [INFO] Redis connected
+2026-10-15T20:05:09.633Z [INFO] [PID 86827] Received SIGTERM. Shutting down gracefully...
+2026-10-15T20:05:11.203Z [INFO] [PID 87841]  server listening on port 5050
+2026-10-15T20:05:11.361Z [INFO] Redis connected
+2026-10-15T20:05:23.971Z [INFO] [PID 87841] Received SIGTERM. Shutting down gracefully...
+2026-10-15T20:05:24.642Z [INFO] [PID 87968]  server listening on port 5050
+2026-10-15T20:05:24.728Z [INFO] Redis connected
+2026-10-15T20:09:21.543Z [INFO] [PID 87968] Received SIGTERM. Shutting down gracefully...
+2026-10-15T20:09:24.000Z [INFO] [PID 89958]  server listening on port 5050
+2026-10-15T20:09:24.184Z [INFO] Redis connected
+2026-10-15T20:11:52.858Z [INFO] [PID 89958] Received SIGTERM. Shutting down gracefully...
+2026-10-15T20:11:53.819Z [INFO] [PID 91200]  server listening on port 5050
+2026-10-15T20:11:54.301Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:54.492Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:54.628Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:54.887Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:55.462Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:56.410Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:11:58.212Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:12:01.584Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-15T20:12:04.550Z [INFO] [PID 91200] Received SIGINT. Shutting down gracefully...
+2026-10-16T14:21:54.230Z [INFO] [PID 96282]  server listening on port 5050
+2026-10-16T14:21:54.482Z [INFO] Redis connected
+2026-10-16T14:31:33.463Z [INFO] [PID 96282] Received SIGTERM. Shutting down gracefully...
+2026-10-16T14:31:36.386Z [INFO] [PID 1390]  server listening on port 5050
+2026-10-16T14:31:36.858Z [INFO] Redis connected
+2026-10-16T14:35:23.950Z [INFO] [PID 1390] Received SIGINT. Shutting down gracefully...
+2026-10-16T14:55:27.172Z [INFO] [PID 16433]  server listening on port 5050
+2026-10-16T14:55:27.339Z [INFO] Redis connected
+2026-10-17T13:21:51.381Z [INFO] Redis connected
+2026-10-17T13:23:22.977Z [INFO] Redis connected
+2026-10-17T13:23:59.484Z [INFO] [PID 44016]  server listening on port 5050
+2026-10-17T13:23:59.497Z [INFO] Redis connected
+2026-10-17T13:31:41.782Z [INFO] [PID 44016] Received SIGTERM. Shutting down gracefully...
+2026-10-17T13:31:43.271Z [INFO] [PID 47834]  server listening on port 5050
+2026-10-17T13:31:43.378Z [INFO] Redis connected
+2026-10-17T13:34:37.176Z [INFO] [PID 47834] Received SIGTERM. Shutting down gracefully...
+2026-10-17T14:01:29.473Z [INFO] [PID 62596]  server listening on port 5050
+2026-10-17T14:01:29.783Z [INFO] Redis connected
+2026-10-17T14:07:28.866Z [INFO] [PID 62596] Received SIGINT. Shutting down gracefully...
+2026-10-17T14:15:16.525Z [INFO] [PID 69859]  server listening on port 5050
+2026-10-17T14:15:16.651Z [INFO] Redis connected
+2026-10-17T14:17:54.379Z [INFO] [PID 69859] Received SIGTERM. Shutting down gracefully...
+2026-10-17T14:17:55.834Z [INFO] [PID 71113]  server listening on port 5050
+2026-10-17T14:17:55.944Z [INFO] Redis connected
+2026-10-17T14:22:10.684Z [INFO] [PID 71113] Received SIGTERM. Shutting down gracefully...
+2026-10-17T14:22:19.195Z [INFO] [PID 73167]  server listening on port 5050
+2026-10-17T14:22:19.358Z [INFO] Redis connected
+2026-10-17T14:41:56.487Z [ERROR] Redis error: read ETIMEDOUT
+2026-10-17T14:41:56.905Z [INFO] Redis connected
+2026-10-17T14:49:40.802Z [ERROR] Redis error: read ETIMEDOUT
+2026-10-17T14:49:41.275Z [INFO] Redis connected
+2026-10-17T15:04:00.314Z [INFO] [PID 73167] Received SIGTERM. Shutting down gracefully...
+2026-10-17T15:04:03.215Z [INFO] [PID 89574]  server listening on port 5050
+2026-10-17T15:04:03.293Z [INFO] Redis connected
+2026-10-17T16:09:39.994Z [INFO] [PID 89574] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:09:41.658Z [INFO] [PID 21862]  server listening on port 5050
+2026-10-17T16:09:42.110Z [INFO] Redis connected
+2026-10-17T16:11:33.881Z [INFO] [PID 21862] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:11:35.368Z [INFO] [PID 22770]  server listening on port 5050
+2026-10-17T16:11:35.477Z [INFO] Redis connected
+2026-10-17T16:11:40.996Z [INFO] [PID 22770] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:11:41.944Z [INFO] [PID 22840]  server listening on port 5050
+2026-10-17T16:11:41.999Z [INFO] Redis connected
+2026-10-17T16:24:51.187Z [INFO] [PID 22840] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:24:53.908Z [INFO] [PID 29407]  server listening on port 5050
+2026-10-17T16:24:54.050Z [INFO] Redis connected
+2026-10-17T16:26:31.228Z [INFO] [PID 29407] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:26:32.758Z [INFO] [PID 30230]  server listening on port 5050
+2026-10-17T16:26:32.895Z [INFO] Redis connected
+2026-10-17T16:27:09.308Z [INFO] [PID 30230] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:27:11.415Z [INFO] [PID 30551]  server listening on port 5050
+2026-10-17T16:27:11.619Z [INFO] Redis connected
+2026-10-17T16:38:19.284Z [INFO] [PID 30551] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:38:21.275Z [INFO] [PID 36085]  server listening on port 5050
+2026-10-17T16:38:21.387Z [INFO] Redis connected
+2026-10-17T16:38:44.869Z [INFO] [PID 36085] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:38:46.630Z [INFO] [PID 36306]  server listening on port 5050
+2026-10-17T16:38:46.723Z [INFO] Redis connected
+2026-10-17T16:45:18.889Z [INFO] [PID 36306] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:45:20.820Z [INFO] [PID 39583]  server listening on port 5050
+2026-10-17T16:45:20.849Z [INFO] Redis connected
+2026-10-17T16:45:46.775Z [INFO] [PID 39583] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:45:47.999Z [INFO] [PID 39822]  server listening on port 5050
+2026-10-17T16:45:48.141Z [INFO] Redis connected
+2026-10-17T16:49:11.862Z [INFO] [PID 39822] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:49:14.223Z [INFO] [PID 41568]  server listening on port 5050
+2026-10-17T16:49:14.315Z [INFO] Redis connected
+2026-10-17T16:49:22.749Z [INFO] [PID 41568] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:49:23.740Z [INFO] [PID 41666]  server listening on port 5050
+2026-10-17T16:49:23.781Z [INFO] Redis connected
+2026-10-17T16:49:37.088Z [INFO] [PID 41666] Received SIGTERM. Shutting down gracefully...
+2026-10-17T16:49:38.594Z [INFO] [PID 41794]  server listening on port 5050
+2026-10-17T16:49:38.651Z [INFO] Redis connected
+2026-10-17T17:55:03.470Z [INFO] [PID 41794] Received SIGTERM. Shutting down gracefully...
+2026-10-17T17:55:05.412Z [INFO] [PID 73255]  server listening on port 5050
+2026-10-17T17:55:05.619Z [INFO] Redis connected
+2026-10-17T17:55:38.668Z [INFO] [PID 73255] Received SIGTERM. Shutting down gracefully...
+2026-10-17T17:55:40.427Z [INFO] Redis connected
+2026-10-17T17:57:12.657Z [INFO] [PID 74306]  server listening on port 5050
+2026-10-17T17:57:12.824Z [INFO] Redis connected
+2026-10-17T17:57:55.938Z [INFO] [PID 74306] Received SIGTERM. Shutting down gracefully...
+2026-10-17T17:57:57.529Z [INFO] [PID 74679]  server listening on port 5050
+2026-10-17T17:57:57.671Z [INFO] Redis connected
+2026-10-17T17:58:24.610Z [INFO] [PID 74679] Received SIGTERM. Shutting down gracefully...
+2026-10-17T17:58:25.747Z [INFO] [PID 74921]  server listening on port 5050
+2026-10-17T17:58:25.843Z [INFO] Redis connected
+2026-10-17T17:58:30.127Z [INFO] [PID 74921] Received SIGTERM. Shutting down gracefully...
+2026-10-17T17:58:31.575Z [INFO] [PID 74984]  server listening on port 5050
+2026-10-17T17:58:31.815Z [INFO] Redis connected
+2026-10-17T17:58:37.979Z [INFO] [PID 74984] Received SIGTERM. Shutting down gracefully...
+2026-10-17T17:58:39.838Z [INFO] [PID 75080]  server listening on port 5050
+2026-10-17T17:58:39.876Z [INFO] Redis connected
+2026-10-17T17:58:43.514Z [INFO] [PID 75080] Received SIGTERM. Shutting down gracefully...
+2026-10-17T17:58:44.849Z [INFO] [PID 75135]  server listening on port 5050
+2026-10-17T17:58:44.897Z [INFO] Redis connected
+2026-10-17T17:58:49.408Z [INFO] [PID 75135] Received SIGTERM. Shutting down gracefully...
+2026-10-17T17:58:50.857Z [INFO] [PID 75185]  server listening on port 5050
+2026-10-17T17:58:50.948Z [INFO] Redis connected
+2026-10-17T18:01:17.878Z [INFO] [PID 75185] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:01:20.552Z [INFO] [PID 76402]  server listening on port 5050
+2026-10-17T18:01:21.509Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:21.767Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:22.008Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:22.542Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:23.196Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:24.159Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:26.013Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:29.313Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:34.412Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:39.577Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:44.653Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:49.851Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:01:55.058Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:02:00.140Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:02:05.306Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:02:10.355Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T18:02:12.807Z [INFO] [PID 76402] Received SIGINT. Shutting down gracefully...
+2026-10-17T18:04:15.020Z [INFO] [PID 78265]  server listening on port 5050
+2026-10-17T18:04:15.167Z [INFO] Redis connected
+2026-10-17T18:05:49.468Z [INFO] [PID 78265] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:05:50.873Z [INFO] [PID 79002]  server listening on port 5050
+2026-10-17T18:05:51.053Z [INFO] Redis connected
+2026-10-17T18:06:05.571Z [INFO] [PID 79002] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:06:08.233Z [INFO] [PID 79139]  server listening on port 5050
+2026-10-17T18:06:08.860Z [INFO] Redis connected
+2026-10-17T18:19:00.360Z [INFO] [PID 79139] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:19:02.303Z [INFO] [PID 85388]  server listening on port 5050
+2026-10-17T18:19:02.422Z [INFO] Redis connected
+2026-10-17T18:20:25.340Z [INFO] [PID 85388] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:20:27.489Z [INFO] [PID 86043]  server listening on port 5050
+2026-10-17T18:20:27.571Z [INFO] Redis connected
+2026-10-17T18:23:59.446Z [INFO] [PID 86043] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:24:01.151Z [INFO] [PID 87775]  server listening on port 5050
+2026-10-17T18:24:01.295Z [INFO] Redis connected
+2026-10-17T18:43:54.646Z [INFO] [PID 87775] Received SIGINT. Shutting down gracefully...
+2026-10-17T18:43:59.220Z [INFO] [PID 97653]  server listening on port 5050
+2026-10-17T18:43:59.394Z [INFO] Redis connected
+2026-10-17T18:49:12.864Z [INFO] [PID 97653] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:49:15.572Z [INFO] [PID 583]  server listening on port 5050
+2026-10-17T18:49:15.697Z [INFO] Redis connected
+2026-10-17T18:49:46.633Z [INFO] [PID 583] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:49:48.010Z [INFO] [PID 930]  server listening on port 5050
+2026-10-17T18:49:48.143Z [INFO] Redis connected
+2026-10-17T18:49:53.907Z [INFO] [PID 930] Received SIGTERM. Shutting down gracefully...
+2026-10-17T18:49:55.354Z [INFO] [PID 1020]  server listening on port 5050
+2026-10-17T18:49:55.389Z [INFO] Redis connected
+2026-10-17T18:51:08.767Z [INFO] [PID 1020] Received SIGINT. Shutting down gracefully...
+2026-10-17T18:56:05.468Z [INFO] [PID 6003]  server listening on port 5050
+2026-10-17T18:56:05.588Z [INFO] Redis connected
+2026-10-17T19:09:39.016Z [INFO] OTP SMS sent successfully to +919129927862
+2026-10-17T19:17:56.373Z [INFO] OTP SMS sent successfully to +919129927862
+2026-10-17T19:23:24.009Z [INFO] [PID 20901]  server listening on port 5050
+2026-10-17T19:23:24.157Z [INFO] Redis connected
+2026-10-17T19:25:15.859Z [ERROR] Failed to send OTP SMS getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T19:25:15.891Z [ERROR] getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T19:26:47.993Z [INFO] OTP SMS sent successfully to +919129927862
+2026-10-17T19:32:50.488Z [INFO] [PID 26078]  server listening on port 5050
+2026-10-17T19:32:50.627Z [INFO] Redis connected
+2026-10-17T20:02:34.905Z [INFO] [PID 26078] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:02:38.577Z [INFO] [PID 40582]  server listening on port 5050
+2026-10-17T20:02:38.715Z [INFO] Redis connected
+2026-10-17T20:08:22.658Z [INFO] [PID 40582] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:08:25.550Z [INFO] [PID 43362]  server listening on port 5050
+2026-10-17T20:08:26.018Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:26.242Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:26.516Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:26.904Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:27.422Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:28.418Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:30.194Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:33.497Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:38.583Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:43.721Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:48.769Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:52.556Z [INFO] [PID 43362] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:08:55.504Z [INFO] [PID 43618]  server listening on port 5050
+2026-10-17T20:08:55.519Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:55.592Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:55.699Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:56.055Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:56.517Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:57.346Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:08:59.114Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:02.476Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:07.615Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:12.726Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:17.757Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:22.849Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:28.053Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:33.180Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:37.817Z [INFO] [PID 43618] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:09:39.428Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:39.442Z [INFO] [PID 44003]  server listening on port 5050
+2026-10-17T20:09:39.621Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:39.760Z [ERROR] Redis error: getaddrinfo ENOTFOUND excited-gopher-151028.upstash.io
+2026-10-17T20:09:40.105Z [INFO] Redis connected
+2026-10-17T20:10:06.781Z [INFO] [PID 44003] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:10:09.430Z [INFO] [PID 44230]  server listening on port 5050
+2026-10-17T20:10:09.553Z [INFO] Redis connected
+2026-10-17T20:10:16.111Z [INFO] [PID 44230] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:10:18.471Z [INFO] [PID 44326]  server listening on port 5050
+2026-10-17T20:10:18.533Z [INFO] Redis connected
+2026-10-17T20:10:23.783Z [INFO] [PID 44326] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:10:24.964Z [INFO] [PID 44385]  server listening on port 5050
+2026-10-17T20:10:25.005Z [INFO] Redis connected
+2026-10-17T20:10:35.984Z [INFO] [PID 44385] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:10:37.975Z [INFO] [PID 44515]  server listening on port 5050
+2026-10-17T20:10:38.014Z [INFO] Redis connected
+2026-10-17T20:10:42.116Z [INFO] [PID 44515] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:10:43.019Z [INFO] [PID 44561]  server listening on port 5050
+2026-10-17T20:10:43.078Z [INFO] Redis connected
+2026-10-17T20:10:51.746Z [INFO] [PID 44561] Received SIGINT. Shutting down gracefully...
+2026-10-17T20:10:55.871Z [INFO] [PID 44834]  server listening on port 5050
+2026-10-17T20:10:55.924Z [INFO] Redis connected
+2026-10-17T20:11:35.943Z [ERROR] Failed to send OTP SMS getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:11:35.944Z [ERROR] getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:12:57.074Z [INFO] OTP SMS sent successfully to +919129927862
+2026-10-17T20:27:11.213Z [INFO] [PID 44834] Received SIGTERM. Shutting down gracefully...
+2026-10-17T20:27:16.059Z [INFO] [PID 51275]  server listening on port 5050
+2026-10-17T20:27:16.248Z [INFO] Redis connected
+2026-10-17T20:27:39.427Z [ERROR] Failed to send OTP SMS The number +91876532XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91876532XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2026-10-17T20:27:39.427Z [ERROR] The number +91876532XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91876532XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2026-10-17T20:31:53.562Z [ERROR] Failed to send OTP SMS getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:31:53.565Z [ERROR] getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:32:32.904Z [ERROR] Failed to send OTP SMS getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:32:32.905Z [ERROR] getaddrinfo ENOTFOUND api.twilio.com
+2026-10-17T20:33:33.628Z [INFO] OTP SMS sent successfully to +916393649199
+2026-10-17T20:38:18.226Z [INFO] [PID 51275] Received SIGINT. Shutting down gracefully...
